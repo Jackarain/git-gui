@@ -3083,6 +3083,8 @@ wm protocol . WM_DELETE_WINDOW do_quit
 bind all <$M1B-Key-q> do_quit
 bind all <$M1B-Key-Q> do_quit
 
+bind all <Key-Escape> do_quit
+
 set m1b_w_script {
 	set toplvl_win [winfo toplevel %W]
 
