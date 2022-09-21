@@ -4193,7 +4193,7 @@ after 1 {
 	}
 }
 if {[is_enabled multicommit] && ![is_config_false gui.gcwarning]} {
-	after 1000 hint_gc
+#	after 1000 hint_gc
 }
 if {[is_enabled retcode]} {
 	bind . <Destroy> {+terminate_me %W}
